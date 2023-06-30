@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>resource/image/lb_app_logo.ico</file>
+        <file>resource/image/lb_background.png</file>
+    </qresource>
+</RCC>
