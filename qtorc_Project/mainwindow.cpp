@@ -116,7 +116,7 @@ void MainWindow::on_pushButton_3_clicked()
     foreach (const QPixmap& pixmap, imageList)
     {
         //emit pixmapRun(pixmap);  // 方法1
-        // 异步调用processPixmap槽
+        // 异步调用processPixmap 槽
         QMetaObject::invokeMethod(ocrWorker_, "processPixmap", Qt::QueuedConnection, Q_ARG(QPixmap, pixmap));
     }
 }

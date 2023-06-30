@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/image">
+        <file alias="lb_background">../TTKResource/lb_background.png</file>
+        <file alias="lb_warning">../TTKResource/lb_warning.png</file>
+        <file alias="lb_app_logo">../TTKResource/lb_app_logo.ico</file>
+        <file alias="btn_close_hover">../TTKResource/btn_close_hover.png</file>
+        <file alias="btn_close_normal">../TTKResource/btn_close_normal.png</file>
+        <file alias="btn_min_normal">../TTKResource/btn_min_normal.png</file>
+        <file alias="btn_min_hover">../TTKResource/btn_min_hover.png</file>
+    </qresource>
+    <qresource prefix="/gif">
+        <file alias="lb_cicle_blue">../TTKResource/gif/lb_cicle_blue.png</file>
+    </qresource>
+</RCC>
